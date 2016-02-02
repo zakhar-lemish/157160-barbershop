@@ -41,70 +41,128 @@
     <div class="goods-class">
       <form action="#" method="post">
         <h2>производители:</h2>
-        <label for="baxter-id">baxter of california</label>
-        <input type="checkbox" name="baxter of california" id="baxter-id" checked>
-        <label for="natty-id">mr natty</label>
-        <input type="checkbox" name="mr natty" id="natty-id">
-        <label for="suavecito-id">suavecito</label>
-        <input type="checkbox" name="suavecito" id="suavecito-id" checked>
-        <label for="malin-id">malin+goetz</label>
-        <input type="checkbox" name="malin+goetz" id="malin-id">
-        <label for="murray-id">murray's</label>
-        <input type="checkbox" name="murray's" id="murray-id">
-        <label for="crew-id">american crew</label>
-        <input type="checkbox" name="american crew" id="crew-id" checked>
+        <ul>
+          <li>
+            <input type="checkbox" name="baxter of california" id="baxter-id" checked>
+            <label for="baxter-id">baxter of california</label>
+          </li>
+          <li>
+            <input type="checkbox" name="mr natty" id="natty-id">
+            <label for="natty-id">mr natty</label>
+          </li>
+          <li>
+            <input type="checkbox" name="suavecito" id="suavecito-id" checked>
+            <label for="suavecito-id">suavecito</label>
+          </li>
+          <li>
+            <input type="checkbox" name="malin+goetz" id="malin-id">
+            <label for="malin-id">malin+goetz</label>
+          </li>
+          <li>
+            <input type="checkbox" name="murray's" id="murray-id">
+            <label for="murray-id">murray's</label>
+          </li>
+          <li>
+            <input type="checkbox" name="american crew" id="crew-id" checked>
+            <label for="crew-id">american crew</label>
+          </li>
+        </ul>
         <h2>группы товаров:</h2>
+        <ul>
+          <li>
+            <input type="radio" name="group" id="shave-id" value="shave">
+            <label for="shave-id">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+          </li>
+          <li>
+            <input type="radio" name="group" id="facilites-id" value="facilites" checked>
+            <label for="facilites-id">СРЕДСТВА ДЛЯ УХОДА</label>
+          </li>
+          <li>
+            <input type="radio" name="group" id="accessories-id" value="accessories">
+            <label for="accessories-id">АКСЕССУАРЫ</label>
+          </li>
+        </ul>
         <input type="submit" value="показать">
       </form>
     </div>
 
     <div class="goods">
       <div class="good">
-        <div class="good-icon"><img src="img/kit-baxter.jpg" width="220" height="165"></div>
-        <div class="good-name">Набор для путешествий<br>"BAXTER OF CALIFORNIA"</div>
+        <div class="good-icon">
+          <a href=""><img src="img/kit-baxter.jpg" width="220" height="165"></a>
+        </div>
+        <div class="good-name">
+          <span class="category">Набор для путешествий</span>
+          <span class="title">"BAXTER OF CALIFORNIA"</span>
+        </div>
         <div class="price-pay">
           <div class="price">2 900 РУБ</div>
-          <div class="pay">КУПИТЬ</div>
+          <div class="pay"><a href="#">КУПИТЬ</a></div>
         </div>
       </div>
       <div class="good">
-        <div class="good-icon"><img src="img/cond-baxter.jpg" width="220" height="165"></div>
-        <div class="good-name">Увлажняющий кондиционер<br>"BAXTER OF CALIFORNIA"</div>
+        <div class="good-icon">
+          <a href=""><img src="img/cond-baxter.jpg" width="220" height="165"></a>
+        </div>
+        <div class="good-name">
+          <span class="category">Увлажняющий кондиционер</span>
+          <span class="title">"BAXTER OF CALIFORNIA"</span>
+        </div>
         <div class="price-pay">
           <div class="price">750 РУБ</div>
-          <div class="pay">КУПИТЬ</div>
+          <div class="pay"><a href="#">КУПИТЬ</a></div>
         </div>
       </div>
       <div class="good">
-        <div class="good-icon"><img src="img/heel-suavecito.jpg" width="220" height="165" width="150" height="100"></div>
-        <div class="good-name">Гель для волос<br>"SUAVECITO"</div>
+        <div class="good-icon">
+          <a href=""><img src="img/heel-suavecito.jpg" width="220" height="165"></a>
+        </div>
+        <div class="good-name">
+          <span class="category">Гель для волос</span>
+          <span class="title">"SUAVECITO"</span>
+        </div>
         <div class="price-pay">
           <div class="price">290 РУБ</div>
-          <div class="pay">КУПИТЬ</div>
+          <div class="pay"><a href="#">КУПИТЬ</a></div>
         </div>
       </div>
       <div class="good">
-        <div class="good-icon"><img src="img/clay-crew.jpg" width="220" height="165"></div>
-        <div class="good-name">Глина для укладки волос<br>"AMERICAN CREW"</div>
+        <div class="good-icon">
+          <a href=""><img src="img/clay-crew.jpg" width="220" height="165"></a>
+        </div>
+        <div class="good-name">
+          <span class="category">Глина для укладки волос</span>
+          <span class="title">"AMERICAN CREW"</span>
+        </div>
         <div class="price-pay">
           <div class="price">500 РУБ</div>
-          <div class="pay">КУПИТЬ</div>
+          <div class="pay"><a href="#">КУПИТЬ</a></div>
         </div>
       </div>
       <div class="good">
-        <div class="good-icon"><img src="img/heel-crew.jpg" width="220" height="165" height="100"></div>
-        <div class="good-name">Гель для волос<br>"AMERICAN CREW"</div>
+        <div class="good-icon">
+          <a href=""><img src="img/heel-crew.jpg" width="220" height="165" height="100"></a>
+        </div>
+        <div class="good-name">
+          <span class="category">Гель для волос</span>
+          <span class="title">"AMERICAN CREW"</span>
+        </div>
         <div class="price-pay">
           <div class="price">300 РУБ</div>
-          <div class="pay">КУПИТЬ</div>
+          <div class="pay"><a href="#">КУПИТЬ</a></div>
         </div>
       </div>
       <div class="good">
-        <div class="good-icon"><img src="img/shave-baxter.jpg" width="220" height="165"></div>
-        <div class="good-name">Набор для бритья<br>"BAXTER OF CALIFORNIA"</div>
+        <div class="good-icon">
+          <a href=""><img src="img/shave-baxter.jpg" width="220" height="165"></a>
+        </div>
+        <div class="good-name">
+          <span class="category">Набор для бритья</span>
+          <span class="title">"BAXTER OF CALIFORNIA"</span>
+        </div>
         <div class="price-pay">
           <div class="price">3 900 РУБ</div>
-          <div class="pay">КУПИТЬ</div>
+          <div class="pay"><a href="#">КУПИТЬ</a></div>
         </div>
       </div>
     </div>
