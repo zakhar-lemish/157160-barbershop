@@ -1,5 +1,5 @@
 body{
-  font-family: "PTSans", "Arial";
+    font-family: "PTSans", "Arial";
 	font-weight: regular;
 	font-size: 14px;
 	color: #000000;
@@ -13,7 +13,7 @@ h1{
 }
 
 h2{
-  font-family: "PTSans", "Arial";
+    font-family: "PTSans", "Arial";
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 52px;
@@ -27,7 +27,7 @@ h2{
 
 .main-header {
   margin-bottom: 60px;
-  background-color: #000000
+  background-color: #000000;
 }
 
 .container {
@@ -48,48 +48,46 @@ h2{
 
 .second-header{
   width: 940px;
-  margin-bottom: 60px;
 }
 
-.image-part{
-	width: 460px;
+.goods-class{
+	width: 220px;
 	float: left;
 }
 
-.image-part img{
-  display: block;
-}
-
-.side-bar{
-	width: 390px;
-  padding-left: 10px;
-  margin-left: 80px;
+.goods{
+	width: 700px;
 	float: right;
 }
 
-.photo-column{
-	width: 140px;
+.good{
+	width: 220px;
 	float: left;
-  margin-top: 20px;
-  border:none;
+	margin-bottom:20px;
 }
 
-.photo-column:nth-child(2){
-  margin: 0 20px;
-  margin-top: 20px;
+.good:nth-child(2),
+.good:nth-child(5){
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.paginator{
+	width: 700px;
+	float: right;
 }
 
 .main-footer {
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
-}
+  }
 
 .footer-contacts {
   float: left;
   width: 320px;
   margin-right: 60px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .footer-social {
