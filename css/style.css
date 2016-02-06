@@ -7,6 +7,7 @@ body{
 }
 
 h1{
+  font-family: "PTSans", "Arial";
 	font-weight: bold;
 	font-size: 30px;
 	line-height: 41px;
@@ -77,6 +78,33 @@ h2{
 .photo-column:nth-child(2){
   margin: 0 20px;
   margin-top: 20px;
+}
+
+.goods-class{
+  width: 220px;
+  float: left;
+}
+
+.goods{
+  width: 700px;
+  float: right;
+}
+
+.good{
+  width: 220px;
+  float: left;
+  margin-bottom:20px;
+}
+
+.good:nth-child(2),
+.good:nth-child(5){
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.paginator{
+  width: 700px;
+  float: right;
 }
 
 .main-footer {
